@@ -44,7 +44,7 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the Repository:**
      ```javascript
       git clone https://github.com/ahmedhassan29290/Resume-Application-Tracking-System.git
-      cd resume-ats-tracking-system
+      cd Resume-Application-Tracking-System
       ```
 2. **Create a Virtual Environment (optional but recommended):**
      ```javascript
