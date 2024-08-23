@@ -7,7 +7,9 @@ The Resume Applicant Tracking System (ATS) is designed to streamline the recruit
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [File Structure](#file-structure)
-- [Environment Variables](#environment-variables)
+- [Usage](#usage)
+- [Example Usage](#example-usage)
+- [Customization](#customization)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -69,6 +71,40 @@ The project is structured as follows:
 - **`.env`**: A file to store environment variables. Not included in version control.
 - **`README.md`**: Project documentation.
 
+## Usage
+1. **Launch the Application**
+   - Run the app using **streamlit run app.py.** The app will open in your web browser.
+2. **Input Job Title and Description**
+   - Enter the **job title** and a detailed **job description** in the respective fields.
+3. **Upload Resume**
+   - Upload the candidate's resume in **PDF format**.
+4. **Evaluate Resume**
+   - Click the **Evaluate Resume** button to get an overview of how well the resume aligns with the job description.
+5. **Generate Interview Questions**
+   - Click **Generate Interview Questions** to generate over 50 interview questions with sample answers tailored to the job title and description provided.
+  
+## Example Usage
+Here’s how you can interact with the app:
+
+1. **Job Title:** Software Engineer
+2. **Job Description:** Copy from job post
+3. **Upload Resume:** Select and upload the candidate's resume in PDF format.
+4. **Evalute Resume and Generate Interview Questions:** View the tailored questions and sample answers.
+
+## Customization
+You can customize the prompts and interview questions in the **prompts.py** file to better fit your needs. For example, you can add or modify questions based on specific roles or industries.
+
+## Contributing
+If you'd like to contribute to this project, please follow these steps:
+
+* Fork the repository.
+* Create a new branch (**git checkout -b feature-branch**).
+* Make your changes.
+* Commit and push your changes (**git commit -m 'Add new feature'**).
+* Open a Pull Request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/ahmedhassan29290/Resume-Application-Tracking-System/blob/main/LICENSE) file for more details.
 
 
 
