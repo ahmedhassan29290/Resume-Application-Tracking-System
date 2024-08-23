@@ -54,7 +54,7 @@ Follow these steps to set up the project on your local machine:
      ```
 4. **Set Up Environment Variables:**
      * Create a **.env** file in the root directory.
-     * Generate an OpenAI API key by signing up or logging in at OpenAI Platform.
+     * Generate an OpenAI API key by signing up or logging in at [OpenAI Platform](https://ai.google.dev/gemini-api).
      * Add your Google API key to the **.env** file:
      ```javascript
       GOOGLE_API_KEY=your_google_api_key
