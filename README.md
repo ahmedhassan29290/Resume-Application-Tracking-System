@@ -62,7 +62,10 @@ Follow these steps to set up the project on your local machine:
      ```javascript
       GOOGLE_API_KEY=your_google_api_key
      ```
-
+5. **Run the Application:**
+     ```javascript
+       streamlit run app.py
+     ```
 ## File Structure
 The project is structured as follows:
 - **`app.py`**: This is the entry point for the Streamlit app. It handles the user interface and interactions.
