@@ -35,7 +35,7 @@ The Resume Applicant Tracking System (ATS) is designed to streamline the recruit
 
 ## Requirements
   Before you begin, ensure you have the following installed:
-  * Python 3.7 or later
+  * Python 3.7 or later | Anaconda (Recommended) [Downlaod](https://www.anaconda.com/download/success)
   * pip package manager
   * Google API key for Generative AI
 
@@ -46,23 +46,18 @@ Follow these steps to set up the project on your local machine:
       git clone https://github.com/ahmedhassan29290/Resume-Application-Tracking-System.git
       cd Resume-Application-Tracking-System
       ```
-2. **Create a Virtual Environment (optional but recommended):**
-     ```javascript
-      python -m venv venv
-      source venv/bin/activate  # On Windows: venv\Scripts\activate
-      ```
-3. **Install the Required Packages:**
+2. **Install the Required Packages:**
      ```javascript
        pip install -r requirements.txt
      ```
-4. **Set Up Environment Variables:**
+3. **Set Up Environment Variables:**
      * Create a **.env** file in the root directory.
      * Generate an OpenAI API key by signing up or logging in at [OpenAI Platform](https://ai.google.dev/gemini-api).
      * Add your Google API key to the **.env** file:
      ```javascript
       GOOGLE_API_KEY=your_google_api_key
      ```
-5. **Run the Application:**
+4. **Run the Application:**
      ```javascript
        streamlit run app.py
      ```
