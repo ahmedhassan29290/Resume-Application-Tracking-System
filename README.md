@@ -2,6 +2,9 @@
 ## Overview
 The Resume Applicant Tracking System (ATS) is designed to streamline the recruitment process by evaluating and managing resumes efficiently. This system helps in matching candidates’ resumes with job descriptions, ensuring a more effective and organized hiring process.
 
+## Interface
+![Alt text](https://github.com/ahmedhassan29290/Resume-Application-Tracking-System/blob/main/image.png "This is some image...")
+
 ## Table of Contents
 - [Features](#features)
 - [Requirements](#requirements)
